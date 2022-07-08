@@ -32,6 +32,7 @@ header ul {
     padding: 15px;
     margin-top: 10px;
     float: right;
+
 }
 
 header a {
@@ -40,22 +41,85 @@ header a {
 
 a:link,
 a:visited {
-    color: rgb(0, 0, 0);
+    color: rgb(114, 107, 107);
 }
 
 header ul a:hover {
-    border-bottom: 1px solid #000000;
+    border-bottom: 3px solid rgb(192, 192, 192);
     padding-bottom: 15px;
-    color: rgb(81, 76, 76);
+    color: rgb(192, 192, 192);
+    transition-duration: 0.5s;
 }
 
-.container {
-    width: 100%;
-    background-color: white;
-}
 
 .line {
     width: 80%;
     margin: 45px auto;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.middle {
+    display: flex;
+}
+
+.owl-carousel {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.owl-theme .owl-nav {
+    width: 90%;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    color: rgb(192, 192, 192);
+    font-size: 65px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.maintext {
+    font-size: 14px;
+    /* background-color: aqua; */
+    width: 40%;
+    padding: 0 15px;
+}
+
+.text1 {
+    padding-bottom: 25px;
+    display: block;
+}
+
+.consultation {
+    width: 80%;
+    height: 50px;
+    background-color: rgb(95, 95, 95);
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.consultation a {
+    color: rgb(255, 255, 255);
+}
+
+.consultation:hover {
+    background-color: black;
+
+}
+
+footer {
+    margin-top: 25px;
+    clear: both;
+    padding: 30px;
+    height: 133px;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
 }
